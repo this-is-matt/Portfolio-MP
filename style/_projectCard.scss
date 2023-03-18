@@ -1,0 +1,24 @@
+// @mixin flex($direction: column, $jusitfy: center) {
+//     display: flex;
+//     flex-direction: $direction;
+//     justify-content: $jusitfy;
+// }
+
+.project-card {
+    // @include flex();
+    // flex-direction: column;
+    // overflow: none;
+    // background: var.$darkest
+    // margin: 10px;
+    width: 25%;
+    transition: .25s ease-out 100ms;
+    &:hover {
+        transform: scale(1.005);
+        // transform-origin: bottom right;
+        box-shadow: 5px 5px 10px 5px rgba(74, 74, 74, 0.467);
+    }
+}
+.project-img{
+    width: 100%;
+    height: 100%;
+}

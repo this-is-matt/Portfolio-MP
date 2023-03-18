@@ -1,0 +1,84 @@
+@use 'var' as v;
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    background: v.$gray-dark;
+    align-items: center;
+}
+
+.footer-content {
+    margin: 1rem;
+    display: flex;
+    // width: 500px;
+    // justify-content:space-between ;
+}
+
+.footer-navigation {
+    padding: 0;
+    li {
+        list-style: none;
+        text-decoration: none;
+        // align-items: space-between;
+        padding: .5rem;
+        transition-duration: 750ms; 
+        border: 2px solid #01232800;
+    }
+
+    & li {
+        color: v.$blue-light;
+    }
+
+    & li:hover {
+        // font-size: 1.45rem;
+        color: v.$gray-light;
+        border: 2px solid v.$gray-light;
+        padding: auto;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-image {
+    width: 35px;
+    margin: .25rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+    input,
+    textarea,
+    button {
+        padding: .5rem;
+        margin: .5rem 0;
+        border-radius: 0;
+        background: v.$gray-med;
+        border: none;
+    }
+
+    // textarea{
+    //     margin-bottom: 1rem;
+    // }
+}
+
+.contact-wrapper {
+    margin: 1rem;
+
+    h2 {
+        color: v.$blue-light;
+        margin: .5rem 0 0 0;
+    }
+}

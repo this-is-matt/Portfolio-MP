@@ -1,0 +1,36 @@
+@use 'var' as v;
+@use 'header';
+@use 'contact';
+@use 'projectCard';
+@use 'skills';
+@use 'banner';
+@use 'footer';
+
+* {
+    box-sizing: border-box;
+    color: v.$gray-light;
+    // aware that this feature is not supported on Safari. Can use a polyfill. Not worth it right now. 
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 14pt;
+}
+body{
+    margin: 0;
+    background: v.$bg-dark;   
+}
+
+
+.active{
+    color: v.$blue-light;
+}
+
+.project-wrapper{
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+}
+

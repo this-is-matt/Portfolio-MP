@@ -1,0 +1,50 @@
+@use 'var' as v;
+
+header {
+    display: flex;
+    color: #012328;
+    justify-content: space-between;
+}
+
+nav {
+    text-align: center;
+}
+
+.header-navigation {
+    display: flex;
+    li {
+        list-style: none;
+        text-decoration: none;
+        // align-items: space-between;
+        padding: 1rem;
+        transition-duration: 750ms;
+        font-size: 1.25rem;
+        border:2px solid #01232800;
+    }
+    & li{
+        color: v.$blue-light;
+    }
+    & li:hover {
+        // font-size: 1.45rem;
+        color: v.$gray-light;
+        border:2px solid v.$gray-light;
+        padding: auto;
+    }
+    a {
+        text-decoration:none;
+    }
+}  
+
+.logo {
+    margin: 1rem;
+    height: 50px;
+}
+
+.logo-wrapper {
+    text-align: end;
+}
+
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+}

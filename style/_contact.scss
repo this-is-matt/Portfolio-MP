@@ -1,0 +1,16 @@
+@use 'var' as v;
+
+.contact-btn{
+    background: none;
+    padding: 15px 35px;
+    margin: 1rem;
+    border:2px solid v.$gray-light;
+    text-decoration: none;
+    color: v.$gray-light;
+    transition: 750ms;
+    &:hover{
+      background: v.$gray-light;
+      color: v.$blue-dark;
+    }
+    
+  }
