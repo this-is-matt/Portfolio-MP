@@ -222,7 +222,7 @@ footer {
   --light-grey: rgb(105, 105, 105);
 }
 
-section {
+.to-do-main {
   margin: 0 auto;
   width: 50%;
 }
