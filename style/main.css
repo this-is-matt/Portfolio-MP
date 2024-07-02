@@ -73,54 +73,10 @@ nav {
   height: 100%;
 }
 
-.skill-wrapper {
-  display: grid;
-  grid-template-columns: 50% 45%;
-  margin: 10rem 1rem;
-  grid-gap: 2rem;
-}
-
-.skill-card-wrapper {
-  display: flex;
-  gap: 1rem;
-}
-
-.skill-card {
-  min-width: 200px;
-  text-align: center;
-  background: #202020;
-  padding: 1rem 0;
-}
-.skill-card img {
-  width: 55%;
-  padding: 0;
-  margin: 0;
-}
-.skill-card h2, .skill-card h3 {
-  margin: 0;
-  margin-top: 0.5rem;
-  text-align: center;
-  color: #5bb0ec;
-}
-
-.skill-list {
-  text-align: center;
-  list-style-type: none;
-  padding: 0;
-}
-
-.skill-progress-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 6rem 0;
-}
-.skill-progress-wrapper label {
-  color: #ebecee;
-}
-
-.skill-progress progress {
-  width: 100%;
+.about-me {
+  width: 80%;
+  margin: 3rem auto;
+  line-height: 1.5rem;
 }
 
 .banner-wrapper {
