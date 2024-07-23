@@ -13,25 +13,34 @@
     // aware that this feature is not supported on Safari. Can use a polyfill. Not worth it right now. 
     scroll-behavior: smooth;
 }
+
+
 html{
-    font-size: 14pt;
+    font-size: 16pt;
+    font-family: v.$body-font
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: v.$title-font;
 }
 body{
     margin: 0;
     background: v.$bg-dark;   
 }
 
-
 .active{
     color: v.$blue-light;
 }
 
-.project-wrapper{
+.project-wrapper {
     display: flex;
-    flex: 1 1 auto;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    
-}
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+  }
 

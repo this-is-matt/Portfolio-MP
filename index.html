@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="assets/logo.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"  rel="stylesheet">
   <link rel="stylesheet" href="style/main.css" />
   <title>Matt Palmer | Home</title>
 
@@ -44,57 +48,217 @@
   <main>
     <div class="banner-wrapper">
       <section class="banner-text">
-        <h1>Hello, <br>my name is Matt</h1>
+        <h1>Hello, my name is Matt</h1>
         <h2>Front-end Web Developer</h2>
-        <p>Take a look around</p>
       </section>
       <img class="banner-graphic" src="./assets/Gears.gif" alt="An image of interlocked rotating gears." srcset="">
     </div>
     <div class="project-wrapper" id="projects">
-      <section class="card1 project-card">
-        <a href="gadgets/toDo/index.html">
-          <img class="project-img" src="assets/WebGadgets.jpg"
-            alt="Gadget image that links to a to-do application page" /></a>
-      </section>
-      <section class="card2 project-card">
-        <a href="https://www.nailLadyBritt.com">
-          <img class="project-img" src="assets/NailLadyBritt.jpg"
-            alt="Image that has the text 'Nail Lady Britt' and links to a customer's website." /></a>
-      </section>
-      <section class="card3 project-card">
-        <a href="https://this-is-matt.github.io/wdd230/Chamber%20of%20Commerce/index.html">
-          <img class="project-img" src="assets/Chamber2.svg"
-            alt="An image that links to a Fake Chamber of commerce webiste." /></a>
-      </section>
-      <section class="card4 project-card">
-        <a href="https://kpbuildersutah.com">
-          <img class="project-img" src="assets/kpbuilders.jpg"
-            alt="An image that links to a customer's general contracting website called KB Builders." /></a>
-      </section>
-      <section class="card3 project-card">
-        <a href="https://this-is-matt.github.io/wdd230/Chamber%20of%20Commerce/index.html">
-          <img class="project-img" src="assets/Chamber2.svg"
-            alt="An image that links to a Fake Chamber of commerce webiste." /></a>
-      </section>
-      <section class="card4 project-card">
-        <a href="https://this-is-matt.github.io/ZenGardenGroupProject/">
-          <img class="project-img" src="assets/ZenLogo2.svg"
-            alt="A logo image that links to a project that demonstrates CSS skills" /></a>
-      </section>
-      <section class="card1 project-card">
-        <a href="gadgets/currencyExchange/index.html">
-          <img class="project-img" src="assets/CurrencyExchange.jpg"
-            alt="An image of a dollar symbols that links to a Currency Exchange project." /></a>
-      </section>
-      <section class="card2 project-card">
-        <a href="https://www.nailLadyBritt.com">
-          <img class="project-img" src="assets/NailLadyBritt.jpg"
-            alt="Image that has the text 'Nail Lady Britt' and links to a customer's website." /></a>
-      </section>
+      <div class="flip-card">
+        <section class="card1 project-card-front">
+          <a href="gadgets/toDo/index.html">
+            <img class="project-img" src="assets/WebGadgets.jpg"
+              alt="Gadget image that links to a to-do application page" /></a>
+        </section>
+        <div class="project-card-back">
+          <h2>Project Name</h2>
+          <P> This projects main focus was to work on creating a simple and easy to use utility for currency exchange.
+          </p>
+          <div class="card-row-2">
+            <div>
+              <h3> Tech Used</h3>
+
+              <ul>
+                <li>API Through</li>
+                <li>html</li>
+                <li>sass</li>
+                <li>js with express</li>
+              </ul>
+            </div>
+            <a type="button" src="#">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <section class="card2 project-card-front">
+          <a href="https://www.nailLadyBritt.com">
+            <img class="project-img" src="assets/NailLadyBritt.jpg"
+              alt="Image that has the text 'Nail Lady Britt' and links to a customer's website." /></a>
+        </section>
+        <div class="project-card-back">
+          <h2>Project Name</h2>
+          <P> This projects main focus was to work on creating a simple and easy to use utility for currency exchange.
+          </p>
+          <div class="card-row-2">
+            <div>
+              <h3> Tech Used</h3>
+
+              <ul>
+                <li>API Through</li>
+                <li>html</li>
+                <li>sass</li>
+                <li>js with express</li>
+              </ul>
+            </div>
+            <a type="button" src="#">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <section class="card3 project-card-front">
+          <a href="https://this-is-matt.github.io/wdd230/Chamber%20of%20Commerce/index.html">
+            <img class="project-img" src="assets/Chamber2.svg"
+              alt="An image that links to a Fake Chamber of commerce webiste." /></a>
+        </section>
+        <div class="project-card-back">
+          <h2>Project Name</h2>
+          <P> This projects main focus was to work on creating a simple and easy to use utility for currency exchange.
+          </p>
+          <div class="card-row-2">
+            <div>
+              <h3> Tech Used</h3>
+
+              <ul>
+                <li>API Through</li>
+                <li>html</li>
+                <li>sass</li>
+                <li>js with express</li>
+              </ul>
+            </div>
+            <a type="button" src="#">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <section class="card4 project-card-front">
+          <a href="https://kpbuildersutah.com">
+            <img class="project-img" src="assets/kpbuilders.jpg"
+              alt="An image that links to a customer's general contracting website called KB Builders." /></a>
+        </section>
+        <div class="project-card-back">
+          <h2>Project Name</h2>
+          <P> This projects main focus was to work on creating a simple and easy to use utility for currency exchange.
+          </p>
+          <div class="card-row-2">
+            <div>
+              <h3> Tech Used</h3>
+
+              <ul>
+                <li>API Through</li>
+                <li>html</li>
+                <li>sass</li>
+                <li>js with express</li>
+              </ul>
+            </div>
+            <a type="button" src="#">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <section class="card3 project-card-front">
+          <a href="https://this-is-matt.github.io/wdd230/Chamber%20of%20Commerce/index.html">
+            <img class="project-img" src="assets/Chamber2.svg"
+              alt="An image that links to a Fake Chamber of commerce webiste." /></a>
+        </section>
+        <div class="project-card-back">
+          <h2>Project Name</h2>
+          <P> This projects main focus was to work on creating a simple and easy to use utility for currency exchange.
+          </p>
+          <div class="card-row-2">
+            <div>
+              <h3> Tech Used</h3>
+
+              <ul>
+                <li>API Through</li>
+                <li>html</li>
+                <li>sass</li>
+                <li>js with express</li>
+              </ul>
+            </div>
+            <a type="button" src="#">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <section class="card4 project-card-front">
+          <a href="https://this-is-matt.github.io/ZenGardenGroupProject/">
+            <img class="project-img" src="assets/ZenLogo2.svg"
+              alt="A logo image that links to a project that demonstrates CSS skills" /></a>
+        </section>
+        <div class="project-card-back">
+          <h2>Project Name</h2>
+          <P> This projects main focus was to work on creating a simple and easy to use utility for currency exchange.
+          </p>
+          <div class="card-row-2">
+            <div>
+              <h3> Tech Used</h3>
+
+              <ul>
+                <li>API Through</li>
+                <li>html</li>
+                <li>sass</li>
+                <li>js with express</li>
+              </ul>
+            </div>
+            <a type="button" src="#">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <section class="card1 project-card-front">
+          <a href="gadgets/currencyExchange/index.html">
+            <img class="project-img" src="assets/CurrencyExchange.jpg"
+              alt="An image of a dollar symbols that links to a Currency Exchange project." /></a>
+        </section>
+        <div class="project-card-back">
+          <h2>Project Name</h2>
+          <P> This projects main focus was to work on creating a simple and easy to use utility for currency exchange.
+          </p>
+          <div class="card-row-2">
+            <div>
+              <h3> Tech Used</h3>
+
+              <ul>
+                <li>API Through</li>
+                <li>html</li>
+                <li>sass</li>
+                <li>js with express</li>
+              </ul>
+            </div>
+            <a type="button" src="#">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <section class="card2 project-card-front">
+          <a href="https://www.nailLadyBritt.com">
+            <img class="project-img" src="assets/NailLadyBritt.jpg"
+              alt="Image that has the text 'Nail Lady Britt' and links to a customer's website." /></a>
+        </section>
+        <div class="project-card-back">
+          <h2>Project Name</h2>
+          <P> This projects main focus was to work on creating a simple and easy to use utility for currency exchange.
+          </p>
+          <div class="card-row-2">
+            <div>
+              <h3> Tech Used</h3>
+
+              <ul>
+                <li>API Through</li>
+                <li>html</li>
+                <li>sass</li>
+                <li>js with express</li>
+              </ul>
+            </div>
+            <a type="button" src="#">See Project</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <article class="about-me">
-      <p>Welcome! <br />I'm Matt, a passionate front-end developer with a knack for creating interactive and
+      <h2>Welcome!</h2>
+      <p>I'm Matt, a passionate front-end developer with a knack for creating interactive and
         user-friendly web experiences.<br />
         <br />
         With a background in product management and a bachelor’s degree surrounding web development, I bring a unique
@@ -103,7 +267,7 @@
         college to pursue my interests in programming and web development further. My first ever website was about my
         first car, a 2002 Mercury Cougar. Since then, I've fallen in love with bringing designs to life through code.
         With my experience as a product manager I have also cultivated a mindset focused on the user and their
-        experience using the application or website that I help produce.<br />
+        experiences using what I help produce.<br />
         <br />
         I specialize in HTML, CSS, and JavaScript, and have experience with React and SQL. I'm constantly learning and
         keeping up with the latest trends in web development to ensure I deliver the best results for every
@@ -120,7 +284,7 @@
         to get in touch with me with the form <a href="#contact">below</a>, or check out my <a
           href="#projects">projects</a> to get a feel for what I do.<br />
         <br />
-        Thank you for visiting my site!<br />
+        Thanks for stopping by!<br />
         -Matt
       </p>
     </article>
@@ -143,7 +307,7 @@
         <a href="https://medium.com/@this.is.matt" target="_blank"><img class="social-image"
             src="assets/social/Medium_Symbol_NoPadding.svg" alt="Medium Link"></a>
         <a href="https://www.linkedin.com/in/matt-c-palmer/" target="_blank"><img class="social-image"
-            src="assets/social/linkedin.png"alt="LinkedIn Link"></a>
+            src="assets/social/linkedin.png" alt="LinkedIn Link"></a>
       </div>
       <!-- <article class="">
         <h2></h2>
