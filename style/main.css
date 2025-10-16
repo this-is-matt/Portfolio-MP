@@ -17,7 +17,7 @@ nav {
   padding: 1rem;
   transition-duration: 750ms;
   font-size: 1.25rem;
-  border: 2px solid #01232800;
+  border: 2px solid rgba(1, 35, 40, 0);
 }
 .header-navigation li {
   color: #5bb0ec;
@@ -59,62 +59,9 @@ nav {
   color: #010b2e;
 }
 
-.flip-card {
-  margin: 5px;
-  width: 24%;
-  display: flex;
-  transform-style: preserve-3d;
-  transition: 1s ease-out 100ms;
-  perspective: 100px;
-}
-.flip-card:hover {
-  transform: rotateX(180deg);
-}
-
-.project-card-front {
-  backface-visibility: hidden;
-}
-
-.project-card-back {
-  transform: rotateX(180deg);
-  background: #20202050;
-  color: #323131;
-  z-index: -1;
-  position: absolute;
-  justify-content: center;
-  align-self: center;
-  width: 100%;
-  height: 100%;
-  padding: 1rem;
-}
-.project-card-back h2, .project-card-back h3 {
-  text-align: center;
-}
-.project-card-back .card-row-2 {
+.project-card {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin: 0;
-}
-.project-card-back a {
-  align-self: center;
-  background: none;
-  padding: 15px 35px;
-  margin: 1rem;
-  border: 2px solid #ebecee;
-  text-decoration: none;
-  color: #ebecee;
-  transition: 750ms;
-  height: 56px;
-}
-.project-card-back a:hover {
-  background: #ebecee;
-  color: #010b2e;
-}
-
-.project-img {
-  width: 100%;
-  height: 100%;
 }
 
 .about-me {
@@ -170,7 +117,7 @@ footer {
   text-decoration: none;
   padding: 0.5rem;
   transition-duration: 750ms;
-  border: 2px solid #01232800;
+  border: 2px solid rgba(1, 35, 40, 0);
 }
 .footer-navigation li {
   color: #5bb0ec;

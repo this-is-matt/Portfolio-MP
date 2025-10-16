@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-mp",
+  "version": "1.0.0",
+  "description": "Matt Palmer portfolio",
+  "homepage": "https://github.com/this-is-matt/Portfolio-MP#readme",
+  "bugs": {
+    "url": "https://github.com/this-is-matt/Portfolio-MP/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/this-is-matt/Portfolio-MP.git"
+  },
+  "license": "ISC",
+  "author": "Matt Palmer",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "sass": "^1.93.2"
+  }
+}
