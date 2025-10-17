@@ -5,80 +5,52 @@
 // }
 @use 'var' as v;
 
-.project-card{
-  display: flex;
-  flex-direction: row;
+.project-wrapper{
+  gap: 1rem;
 }
 
+.project-card {
+  padding: 1rem;
+  color: #01c38D;
+  background: #191E29;
+  width: 420px;
+  border: solid;
+  border-radius: 4px;
+  position: relative;
 
-// .flip-card{
-//     margin: 5px;
-//     width: 24%;
-//     display: flex;
-//     transform-style: preserve-3d;
-//     transition: 1s ease-out 100ms;
-//     perspective: 100px;
-//     &:hover {
-//         transform: rotateX(180deg);
-//     }
-// }
+  &:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.02);
+    transition: all 0.5s ease-in-out;
+  }
 
-// .project-card-front {
-//     // @include flex();
-//     // flex-direction: column;
-//     // overflow: none;
-//     // background: var.$darkest
-//     backface-visibility: hidden;
-   
-    
-// }
 
-// .project-card-back{
-//     transform: rotateX(180deg);
-//     background: v.$gray-dark-opacity;
-//     color: v.$gray-med;
-    
-//     z-index: -1;
-//     position: absolute;
-//     justify-content: center;
-//     align-self: center;
-//     width: 100%;
-//     height: 100%; 
-//     padding: 1rem;
-    
-    
-//     & h2, h3{
-//       text-align: center;
-//     }
-//     & .card-row-2{
-//       display: flex;
-//       flex-direction: row;
-//      justify-content: center;
-//       margin: 0;
-//     }
-//     & a{
-//         align-self: center;
-//         background: none;
-//         padding: 15px 35px;
-//         margin: 1rem;
-//         border:2px solid v.$gray-light;
-//         text-decoration: none;
-//         color: v.$gray-light;
-//         transition: 750ms;
-//         height: 56px;
-//         &:hover{
-//           background: v.$gray-light;
-//           color: v.$blue-dark;
-//         }
-//     }
-//   }
-// .project-img{
-//     width: 100%;
-//     height: 100%;
-// }
+  img {
+    max-height: 50px;
+  }
 
-// // this section controls the animation
-// .project-card:hover{
-    
-// }
+  h1 {
+    font-size: 1.25rem;
+  }
 
+  h2 {
+    margin-top: -.5rem;
+    font-size: .9rem;
+    color: #283841;
+  }
+
+  p {
+    color: #f2f2f2;
+  }
+
+  .tags {}
+
+  .tag {
+    display: inline;
+    padding: .125rem .75rem;
+    margin: 5px;
+    color: #191E29;
+    background: #01c38D;
+    border-radius: 50px;
+  }
+}

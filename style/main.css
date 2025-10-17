@@ -59,9 +59,45 @@ nav {
   color: #010b2e;
 }
 
+.project-wrapper {
+  gap: 1rem;
+}
+
 .project-card {
-  display: flex;
-  flex-direction: row;
+  padding: 1rem;
+  color: #01c38D;
+  background: #191E29;
+  width: 420px;
+  border: solid;
+  border-radius: 4px;
+  position: relative;
+}
+.project-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.02);
+  transition: all 0.5s ease-in-out;
+}
+.project-card img {
+  max-height: 50px;
+}
+.project-card h1 {
+  font-size: 1.25rem;
+}
+.project-card h2 {
+  margin-top: -0.5rem;
+  font-size: 0.9rem;
+  color: #283841;
+}
+.project-card p {
+  color: #f2f2f2;
+}
+.project-card .tag {
+  display: inline;
+  padding: 0.125rem 0.75rem;
+  margin: 5px;
+  color: #191E29;
+  background: #01c38D;
+  border-radius: 50px;
 }
 
 .about-me {
@@ -260,7 +296,12 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Inconsolata", monospace;
 }
 
@@ -282,6 +323,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  margin: 1.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
